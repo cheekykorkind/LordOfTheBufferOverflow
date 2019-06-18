@@ -3,7 +3,7 @@
 
 int main()
 {
-	int auth = 0;
+    int auth = 0;
     char passwd[20];
 
     printf("Enter password : ");
