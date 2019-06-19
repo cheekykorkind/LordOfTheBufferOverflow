@@ -6,6 +6,8 @@ int main()
     int integer = 10;
     unsigned char *integerAddress = (unsigned char *)&integer;
 
+    printf("integer decimal value : %d\n", integer);
+
     printf("===============HEX DUMP START===============\n");
 
     printf("0x%08x  ", &integerAddress);
